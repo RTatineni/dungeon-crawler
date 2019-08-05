@@ -6,6 +6,8 @@ cache:
     - "node_modules"
 deploy:
   provider: heroku
+  api_key:
+    secure: process.env.KEY
   app: dungeon-crawler-a
   on:
     repo: RTatineni/dungeon-crawler
