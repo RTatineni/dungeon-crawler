@@ -1,13 +1,13 @@
 language: node_js
-node_js: 
-  - "stable"
+node_js:
+- stable
 cache:
   directories:
-    - "node_modules"
+  - node_modules
 deploy:
   provider: heroku
   api_key:
-    secure: process.env.KEY
+    secure: GDYBs6OWQnFwpGWh6VTwUtS9IQsyBHAqcUPTlAwwQ4z6flQg3z4vPHrzqnu6zkxyquhgEqDGJmYDq8zn1lidn8QBEE9h3b/BQxerp0lMfF3LdUKwQiH5IU6cQwUTNoPJHxOVUXuAEg41WuOiBmYxRvNPj9ZhwSIwMN10HnMV8J4DQTT6c6G9W/G1V3NiktX3r6Y8aLxedbhDpvX7P70FYifuL4w39oDfAeikYvkfubXoYXZ7GNH99mqxnK5PI0AnUzXR6Rq8USoehpQO5r6lQ0GMbRMufUCXyRkOoWjaGdVbrb3bMIR4NQ8dhguu6nt8pcFSgxMpES3y5iHl16bj+/BxtJovZSz2i/Eh83+onD/3PJ4+G2Lh/Tuvb+B0CGSCpnYUTLwm6wmkZgBRCqDNxSPB7ukiMgj9xnfsWH3nNIqKo/FyZwVNGi9sSD7WuskAs8gBB/TZb91bvc7JaUVHD59Eq43MMLgsbS2rYgOqK32X778+uJWQCtZ80xo8OLLKajoIFuPDFBCBCNzQJQoSC2Vnduh1o2mGR+cLpYVym3jtVQnU5fmE+AB/5ohD4/YkHjw7LzhUjKnBpxE72bDV6MiV340WDopVFAL9eKkx63iU2M1060GVAlpmnP3QBJeyaOLXKxiG46WGMh27imSaJNvftSiy0KUUiWSuPG+STKI=
   app: dungeon-crawler-a
   on:
     repo: RTatineni/dungeon-crawler
