@@ -2,9 +2,9 @@ language: node_js
 node_js: 
   - "stable"
 cache:
-  - bundler
   directories:
     - "node_modules"
+  - bundler
 deploy:
   provider: heroku
   api_key:
